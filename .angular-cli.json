@@ -19,23 +19,23 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-		"assets/css/icons/icomoon/styles.css",
-        "assets/css/bootstrap.css",
-		"assets/css/core.min.css",
-		"assets/css/components.min.css",
-		"assets/css/colors.min.css",
+        "assets/css/icons/icomoon/styles.css",
+        "assets/css/bootstrap.min.css",
+        "assets/css/core.min.css",
+        "assets/css/components.min.css",
+        "assets/css/colors.min.css",
         "styles.css"
       ],
       "scripts": [
-		  "assets/js/plugins/loaders/pace.min.js",
-		  "assets/js/core/libraries/jquery.min.js",
-		  "assets/js/core/libraries/bootstrap.min.js",
-		  "assets/js/plugins/loaders/blockui.min.js",
-		  "assets/js/plugins/forms/styling/uniform.min.js",
-		  "assets/js/core/app.js",
-		  "assets/js/plugins/ui/ripple.min.js",
-		  "assets/js/pages/login.js"
-	  ],
+        "assets/js/plugins/loaders/pace.min.js",
+        "assets/js/core/libraries/jquery.min.js",
+        "assets/js/core/libraries/bootstrap.min.js",
+        "assets/js/plugins/loaders/blockui.min.js",
+        "assets/js/plugins/forms/styling/uniform.min.js",
+        "assets/js/core/app.js",
+        "assets/js/plugins/ui/ripple.min.js",
+        "assets/js/pages/login.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
@@ -68,7 +68,7 @@
     }
   },
   "defaults": {
-    "styleExt": "less",
+    "styleExt": "css",
     "component": {
     }
   }
